@@ -1,1 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <remote fetch="git://github.com/painterlake" name="github" review="null"/>
 
+  <default remote="caf" revision="gingerbread"/>
+  <project name="platform/vendor/qcom/msm8960" path="device/qcom/msm8960" revision="4b9fec542de4a38a52e005c2619ed9fc4f5da5c4"/>
+  <project name="test" path="poky/test" remote="github" revision="c4ee6375e00999d46d7a3b73d071e745780717bb"/>
+</manifest>
